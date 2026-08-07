@@ -4,11 +4,12 @@ This package supports the manuscript **Auditing dissolved-oxygen monitoring
 adequacy under sparse record uncertainty: low-oxygen duration and cumulative
 deficit**.
 
-## Repository status
+## Release status
 
-This verified version is maintained in a private repository pending a separate
-public archival release. Submission documents are not included. The repository
-URL is <https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit>.
+Version 1.1.0 is publicly released at
+<https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit/releases/tag/v1.1.0>.
+Submission documents are not included. No persistent DOI has been assigned to
+this GitHub release.
 
 ## Evidence included
 

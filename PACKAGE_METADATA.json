@@ -1,7 +1,7 @@
 {
   "package": "do-monitoring-adequacy-audit",
   "version": "1.1.0",
-  "status": "verified_private_repository",
+  "status": "verified_public_release",
   "checkpoint": "DIR-01-CP-20260802-O",
   "scientific_runtime_sha256": "5e06c11ea2bff3e1fd2713017736cb8343fabd4d9b4b332af234025a45891b2a",
   "mddnr_source_manifest_sha256": "c06cb797bed4541135b0726ccb07ea04df1eb51929f60645cfce60d530733d2d",
@@ -26,8 +26,11 @@
   "code_license_scope": "original author-owned software only",
   "code_license_applied": true,
   "repository_url": "https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit",
-  "repository_visibility": "private",
-  "public_release_created": false,
+  "repository_visibility": "public",
+  "public_release_created": true,
+  "release_tag": "v1.1.0",
+  "release_url": "https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit/releases/tag/v1.1.0",
+  "date_released": "2026-08-08",
   "persistent_doi": null,
   "network_required_for_reproduction": false
 }
