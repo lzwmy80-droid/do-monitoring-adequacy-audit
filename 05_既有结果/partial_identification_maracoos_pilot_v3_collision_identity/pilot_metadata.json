@@ -1,0 +1,139 @@
+{
+  "status": "pilot_complete_assumptions_not_validated",
+  "source_manifest": "04_真实数据/MARACOOS_MDDNR_discovery_v3/download_manifest.json",
+  "source_manifest_sha256": "c06cb797bed4541135b0726ccb07ea04df1eb51929f60645cfce60d530733d2d",
+  "calibration_dataset_ids": [
+    "mddnr_Arundel_on_the_Bay",
+    "mddnr_Budds_Landing",
+    "mddnr_Dares_Beach",
+    "mddnr_Harris_Creek_Downstream"
+  ],
+  "validation_dataset_ids": [
+    "mddnr_Bishopville_Prong",
+    "mddnr_Camp_Tockwogh",
+    "mddnr_Greys_Creek",
+    "mddnr_Harris_Creek_Upstream"
+  ],
+  "calibration_eligible_slope_count": 28968,
+  "slope_parameters_mgL_per_hour": {
+    "calibration_q999": 13.203959999999936,
+    "calibration_max": 25.519999999999996
+  },
+  "slope_station_summary": [
+    {
+      "dataset_id": "mddnr_Arundel_on_the_Bay",
+      "n": 6602,
+      "q95": 2.8000000000000043,
+      "q99": 5.198799999999973,
+      "q999": 11.14384000000006,
+      "maximum": 19.04
+    },
+    {
+      "dataset_id": "mddnr_Budds_Landing",
+      "n": 8832,
+      "q95": 4.402202447163512,
+      "q99": 7.9503310344827725,
+      "q999": 14.446759999999994,
+      "maximum": 25.519999999999996
+    },
+    {
+      "dataset_id": "mddnr_Dares_Beach",
+      "n": 7010,
+      "q95": 2.6799999999999997,
+      "q99": 4.640000000000001,
+      "q999": 11.476399999999995,
+      "maximum": 16.88
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Downstream",
+      "n": 6524,
+      "q95": 3.16,
+      "q99": 7.150799999999981,
+      "q999": 15.249879999999939,
+      "maximum": 19.32
+    }
+  ],
+  "validation_slope_station_summary": [
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "n": 8832,
+      "q95": 10.097999999999956,
+      "q99": 17.360000000000003,
+      "q999": 24.775199999999895,
+      "maximum": 49.64
+    },
+    {
+      "dataset_id": "mddnr_Camp_Tockwogh",
+      "n": 8831,
+      "q95": 1.8399999999999999,
+      "q99": 3.3480000000000287,
+      "q999": 6.16563018867925,
+      "maximum": 10.04
+    },
+    {
+      "dataset_id": "mddnr_Greys_Creek",
+      "n": 8248,
+      "q95": 12.12,
+      "q99": 24.18359999999997,
+      "q999": 43.55108000000021,
+      "maximum": 63.199999999999996
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "n": 7633,
+      "q95": 2.2399999999999984,
+      "q99": 3.680000000000002,
+      "q999": 5.7347200000000145,
+      "maximum": 8.36
+    }
+  ],
+  "validation_eligible_slope_count": 33544,
+  "validation_share_slopes_le_calibration_q999": 0.9828285237300263,
+  "validation_share_slopes_le_calibration_max": 0.997525637968042,
+  "top_100_slope_depth_change_share": 0.54,
+  "validation_block_count": 6,
+  "validation_blocks": [
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "block_index": 0,
+      "start": "2018-06-01 00:00:00+00:00",
+      "end": "2018-07-01 00:00:00+00:00"
+    },
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "block_index": 1,
+      "start": "2018-07-01 00:00:00+00:00",
+      "end": "2018-07-31 00:00:00+00:00"
+    },
+    {
+      "dataset_id": "mddnr_Camp_Tockwogh",
+      "block_index": 0,
+      "start": "2017-06-01 00:00:14+00:00",
+      "end": "2017-07-01 00:00:12+00:00"
+    },
+    {
+      "dataset_id": "mddnr_Camp_Tockwogh",
+      "block_index": 1,
+      "start": "2017-07-01 00:00:12+00:00",
+      "end": "2017-07-31 00:00:12+00:00"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "block_index": 0,
+      "start": "2018-06-19 13:15:00+00:00",
+      "end": "2018-07-19 13:15:00+00:00"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "block_index": 1,
+      "start": "2018-07-19 13:15:00+00:00",
+      "end": "2018-08-18 13:15:00+00:00"
+    }
+  ],
+  "code_containment_failures_when_reference_L_compatible": 0,
+  "reference_definition": "piecewise linear through complete 15-minute block",
+  "reference_is_not_continuous_truth": true,
+  "empirical_L_is_not_a_physical_guarantee": true,
+  "stream_identity_rule": "Split time-parseable rows by numeric sample_depth availability. Declare parallel streams only if at least 10 minority rows and at least 5% of the minority group have an opposite-group neighbor less than 450 seconds away. If parallel, retain the larger group (present wins ties); otherwise retain all rows. DO values are never inspected.",
+  "supersedes_initial_interleaved_stream_run": true
+}

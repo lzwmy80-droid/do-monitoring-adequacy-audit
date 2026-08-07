@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "interpretation": "cross-network transportability stress test; not external validation or population inference",
+  "selected_series_count": 9,
+  "series_with_qualifying_blocks": 9,
+  "qualifying_block_count": 36,
+  "compatible_block_count": 36,
+  "compatible_station_count": 9,
+  "all_phase_case_count": 1080,
+  "compatible_feasible_phase_case_count": 1080,
+  "fixed_k1_case_count": 1080,
+  "threshold_mgL": 5.0,
+  "state_lower_bound_mgL": 0.0,
+  "transferred_calibration_q999_L_mgL_per_hour": 13.203959999999936,
+  "cadence_hours_all_phases": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "max_replacements_main": 0,
+  "max_replacements_sensitivity": 1,
+  "main_summary_unit": "median across station-block phase medians; phases are not independent replicates",
+  "analysis_interval_utc_half_open": [
+    "2024-06-01 00:00:00+00:00",
+    "2024-09-01 00:00:00+00:00"
+  ],
+  "approved_rule": "legacy NWIS qualifier exactly A; other/nonfinite observations retained in source files but excluded before window selection",
+  "quarter_hour_rule": "exact UTC minutes 00/15/30/45, second and microsecond zero; no interpolation or averaging",
+  "window_rule": {
+    "points": 673,
+    "span_hours_inclusive": [
+      167.5,
+      168.5
+    ],
+    "maximum_adjacent_gap_minutes": 18.0,
+    "maximum_blocks_per_station": 4,
+    "selection": "earliest qualifying row-disjoint windows"
+  },
+  "containment_failures": 0,
+  "k1_nesting_failures": 0,
+  "freeze_note": "09_论文写作输出/USGS_EXTERNAL_REPLICATION_FREEZE_NOTE_20260802.md",
+  "freeze_note_sha256": "436dcedcc05fa640868d34e04838b0a591673d5fc791dad29b023e78137dbe4a",
+  "download_manifest": "04_真实数据/USGS_WDFN_external_2024/download_manifest.json",
+  "download_manifest_sha256": "174e1bfd5b00b7d75ac6bea51ce5683edd158b24f87a9448c6156f6925e155bd",
+  "core_runtime": "03_代码与测试/current/robust_exact_current.py",
+  "core_runtime_sha256": "5e06c11ea2bff3e1fd2713017736cb8343fabd4d9b4b332af234025a45891b2a",
+  "analysis_script": "03_代码与测试/current/run_usgs_external_replication.py",
+  "analysis_script_sha256": "624eef58cb76b693bfeb3d264e5231683a18624f3c0e26c6c40f5be61b713956"
+}

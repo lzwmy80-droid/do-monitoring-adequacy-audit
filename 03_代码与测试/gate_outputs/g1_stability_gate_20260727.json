@@ -1,0 +1,299 @@
+{
+  "gate": "DIR-01-G1-deficit-stability",
+  "status": "pass_no_counterexample_in_finite_search",
+  "scope": "exact-observation DP plus deterministic grid geometry; not a proof by testing",
+  "required_condition": "n > 2k",
+  "candidate_adaptive_bound": "2*epsilon*T + L*(0.5*sum(Delta_i^2) + (4*k^2-k)*h^2)",
+  "candidate_coarse_bound": "2*epsilon*T + L*(T*h/2 + (4*k^2-k)*h^2)",
+  "regular_grid_sharp_bound": "2*epsilon*T + L*(T*h/2 + (4*k^2-k)*h^2)",
+  "geometry_audit": {
+    "random_grids": 100,
+    "common_anchor_subsets_checked": 17708,
+    "maximum_actual_to_bound_ratio": 1.0,
+    "maximum_actual_minus_bound": 0.0
+  },
+  "exact_dp_audit": {
+    "exact_dp_cases_checked": 10000,
+    "maximum_width_to_bound_ratio": 0.9999949570541062,
+    "maximum_width_minus_bound": -1.554719416575756e-08
+  },
+  "regular_exact_dp_audit": {
+    "regular_exact_dp_cases_checked": 10000,
+    "maximum_width_to_bound_ratio": 0.9999981520269242,
+    "maximum_width_minus_bound": -3.77932337369824e-08
+  },
+  "boundary_order_witnesses": [
+    {
+      "k": 1,
+      "n": 3,
+      "robust_deficit_width": 8.0,
+      "four_L_k2_h2": 8.0,
+      "regular_sharp_bound": 8.0
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "robust_deficit_width": 32.0,
+      "four_L_k2_h2": 32.0,
+      "regular_sharp_bound": 32.0
+    },
+    {
+      "k": 3,
+      "n": 7,
+      "robust_deficit_width": 72.0,
+      "four_L_k2_h2": 72.0,
+      "regular_sharp_bound": 72.0
+    },
+    {
+      "k": 4,
+      "n": 9,
+      "robust_deficit_width": 128.0,
+      "four_L_k2_h2": 128.0,
+      "regular_sharp_bound": 128.0
+    },
+    {
+      "k": 5,
+      "n": 11,
+      "robust_deficit_width": 199.99999999999994,
+      "four_L_k2_h2": 200.0,
+      "regular_sharp_bound": 200.0
+    },
+    {
+      "k": 6,
+      "n": 13,
+      "robust_deficit_width": 288.0000000000001,
+      "four_L_k2_h2": 288.0,
+      "regular_sharp_bound": 288.0
+    },
+    {
+      "k": 7,
+      "n": 15,
+      "robust_deficit_width": 392.0000000000001,
+      "four_L_k2_h2": 392.0,
+      "regular_sharp_bound": 392.0
+    },
+    {
+      "k": 8,
+      "n": 17,
+      "robust_deficit_width": 512.0,
+      "four_L_k2_h2": 512.0,
+      "regular_sharp_bound": 512.0
+    }
+  ],
+  "extended_regular_sharpness_witnesses": [
+    {
+      "k": 1,
+      "point_count": 3,
+      "interval_count_N": 2,
+      "extra_intervals_after_first_common_anchor": 0,
+      "robust_deficit_width": 8.0,
+      "regular_sharp_bound": 8.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 1,
+      "point_count": 4,
+      "interval_count_N": 3,
+      "extra_intervals_after_first_common_anchor": 1,
+      "robust_deficit_width": 9.0,
+      "regular_sharp_bound": 9.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 1,
+      "point_count": 6,
+      "interval_count_N": 5,
+      "extra_intervals_after_first_common_anchor": 3,
+      "robust_deficit_width": 11.000000000000004,
+      "regular_sharp_bound": 11.0,
+      "width_minus_bound": 3.552713678800501e-15
+    },
+    {
+      "k": 1,
+      "point_count": 11,
+      "interval_count_N": 10,
+      "extra_intervals_after_first_common_anchor": 8,
+      "robust_deficit_width": 15.999999999999993,
+      "regular_sharp_bound": 16.0,
+      "width_minus_bound": -7.105427357601002e-15
+    },
+    {
+      "k": 2,
+      "point_count": 5,
+      "interval_count_N": 4,
+      "extra_intervals_after_first_common_anchor": 0,
+      "robust_deficit_width": 32.0,
+      "regular_sharp_bound": 32.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 2,
+      "point_count": 6,
+      "interval_count_N": 5,
+      "extra_intervals_after_first_common_anchor": 1,
+      "robust_deficit_width": 33.0,
+      "regular_sharp_bound": 33.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 2,
+      "point_count": 8,
+      "interval_count_N": 7,
+      "extra_intervals_after_first_common_anchor": 3,
+      "robust_deficit_width": 35.00000000000001,
+      "regular_sharp_bound": 35.0,
+      "width_minus_bound": 7.105427357601002e-15
+    },
+    {
+      "k": 2,
+      "point_count": 13,
+      "interval_count_N": 12,
+      "extra_intervals_after_first_common_anchor": 8,
+      "robust_deficit_width": 39.999999999999986,
+      "regular_sharp_bound": 40.0,
+      "width_minus_bound": -1.4210854715202004e-14
+    },
+    {
+      "k": 3,
+      "point_count": 7,
+      "interval_count_N": 6,
+      "extra_intervals_after_first_common_anchor": 0,
+      "robust_deficit_width": 72.0,
+      "regular_sharp_bound": 72.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 3,
+      "point_count": 8,
+      "interval_count_N": 7,
+      "extra_intervals_after_first_common_anchor": 1,
+      "robust_deficit_width": 73.0,
+      "regular_sharp_bound": 73.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 3,
+      "point_count": 10,
+      "interval_count_N": 9,
+      "extra_intervals_after_first_common_anchor": 3,
+      "robust_deficit_width": 75.0,
+      "regular_sharp_bound": 75.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 3,
+      "point_count": 15,
+      "interval_count_N": 14,
+      "extra_intervals_after_first_common_anchor": 8,
+      "robust_deficit_width": 80.0,
+      "regular_sharp_bound": 80.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 4,
+      "point_count": 9,
+      "interval_count_N": 8,
+      "extra_intervals_after_first_common_anchor": 0,
+      "robust_deficit_width": 128.0,
+      "regular_sharp_bound": 128.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 4,
+      "point_count": 10,
+      "interval_count_N": 9,
+      "extra_intervals_after_first_common_anchor": 1,
+      "robust_deficit_width": 129.0,
+      "regular_sharp_bound": 129.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 4,
+      "point_count": 12,
+      "interval_count_N": 11,
+      "extra_intervals_after_first_common_anchor": 3,
+      "robust_deficit_width": 131.0,
+      "regular_sharp_bound": 131.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 4,
+      "point_count": 17,
+      "interval_count_N": 16,
+      "extra_intervals_after_first_common_anchor": 8,
+      "robust_deficit_width": 136.0,
+      "regular_sharp_bound": 136.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 5,
+      "point_count": 11,
+      "interval_count_N": 10,
+      "extra_intervals_after_first_common_anchor": 0,
+      "robust_deficit_width": 199.99999999999994,
+      "regular_sharp_bound": 200.0,
+      "width_minus_bound": -5.684341886080802e-14
+    },
+    {
+      "k": 5,
+      "point_count": 12,
+      "interval_count_N": 11,
+      "extra_intervals_after_first_common_anchor": 1,
+      "robust_deficit_width": 201.00000000000006,
+      "regular_sharp_bound": 201.0,
+      "width_minus_bound": 5.684341886080802e-14
+    },
+    {
+      "k": 5,
+      "point_count": 14,
+      "interval_count_N": 13,
+      "extra_intervals_after_first_common_anchor": 3,
+      "robust_deficit_width": 203.0,
+      "regular_sharp_bound": 203.0,
+      "width_minus_bound": 0.0
+    },
+    {
+      "k": 5,
+      "point_count": 19,
+      "interval_count_N": 18,
+      "extra_intervals_after_first_common_anchor": 8,
+      "robust_deficit_width": 207.99999999999983,
+      "regular_sharp_bound": 208.0,
+      "width_minus_bound": -1.7053025658242404e-13
+    }
+  ],
+  "no_common_anchor_counterexample": {
+    "n": 2,
+    "k": 1,
+    "L": 0.0,
+    "epsilon": 0.0,
+    "report_magnitude": 100.0,
+    "robust_deficit_width": 100.0,
+    "grid_only_candidate_rhs": 0.0
+  },
+  "nonconnected_range_counterexample": {
+    "times": [
+      0.0,
+      1.0
+    ],
+    "reports": [
+      -100.0,
+      100.0
+    ],
+    "L": 0.0,
+    "epsilon": 0.0,
+    "k": 1,
+    "threshold": 0.0,
+    "exact_deficit_image": [
+      0.0,
+      100.0
+    ],
+    "endpoint_hull": [
+      0.0,
+      100.0
+    ],
+    "midpoint_in_exact_image": false,
+    "interpretation": "sharp endpoints do not imply a connected identified set"
+  },
+  "interpretation": "Finite search did not falsify either valid bound. The boundary construction attains the regular-grid formula, while n<=2k gives an explicit counterexample to any bound lacking a shared anchor."
+}

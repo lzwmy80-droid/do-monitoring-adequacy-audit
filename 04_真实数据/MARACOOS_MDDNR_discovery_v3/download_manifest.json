@@ -1,0 +1,604 @@
+{
+  "status": "download_complete",
+  "downloaded_at_utc": "2026-07-16T10:19:14.696278+00:00",
+  "source_program": "Maryland DNR Continuous Monitoring Program",
+  "delivery_service": "MARACOOS ERDDAP",
+  "catalog_record": "https://catalog.data.gov/dataset/mddnr-station-otter-point-creek",
+  "catalog_access_level": "public",
+  "catalog_license": "CC0-1.0",
+  "search_url": "https://erddap.maracoos.org/erddap/search/index.json?page=1&itemsPerPage=1000&searchFor=mddnr",
+  "search_sha256": "b074c14e0e4d14873b2bb5d7ff50237140a24cd406fc99f8879155d115154f97",
+  "frozen_candidate_years_descending": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017
+  ],
+  "frozen_within_year_period": "June 1 00:00Z through September 1 00:00Z",
+  "selection_rule": "Sort MDDNR datasets with DO by dataset_id; exclude explicit Bottom/Surface paired-depth titles; for each station test 2025 through 2017 in descending order, limited by the ERDDAP metadata time range, and retain its most recent warm season with at least 5000 rows; stop at eight stations. DO values are not used for selection.",
+  "target_stations": 8,
+  "selected_count": 8,
+  "candidate_count": 25,
+  "variables": [
+    "time",
+    "station_id",
+    "station_name",
+    "latitude",
+    "longitude",
+    "depth",
+    "mass_concentration_of_oxygen_in_sea_water",
+    "sample_depth",
+    "sea_water_temperature",
+    "sea_water_salinity",
+    "fractional_saturation_of_oxygen_in_sea_water"
+  ],
+  "attempts": [
+    {
+      "dataset_id": "mddnr_Arundel_on_the_Bay",
+      "title": "MDDNR, Station Arundel on the Bay",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Arundel_on_the_Bay.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 6677,
+      "valid_do_rows": 6676,
+      "first_valid_time": "2019-06-20T16:30:00Z",
+      "last_valid_time": "2019-09-01T00:00:00Z",
+      "do_min_mgL": 1.51,
+      "do_max_mgL": 17.69,
+      "station_names": [
+        "Arundel_on_the_Bay"
+      ],
+      "latitudes": [
+        "38.91675"
+      ],
+      "longitudes": [
+        "-76.45838"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Arundel_on_the_Bay_2019-06-01_2019-09-01.csv",
+      "csv_bytes": 629999,
+      "csv_sha256": "d399b444ac45184390a6b989c378ee48c994496d287ea90c5d50865b9ba1b1fe",
+      "info_file": "mddnr_Arundel_on_the_Bay_info.json",
+      "info_sha256": "e9d0013ca76bf3b6929ee546ed2a83c241036d510a0b3572e26f55807bd82848"
+    },
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "title": "MDDNR, Station Bishopville Prong",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Bishopville_Prong.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "status": "unavailable_or_invalid",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "title": "MDDNR, Station Bishopville Prong",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Bishopville_Prong.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8833,
+      "valid_do_rows": 8833,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 0.1,
+      "do_max_mgL": 22.02,
+      "station_names": [
+        "Bishopville_Prong"
+      ],
+      "latitudes": [
+        "38.42396667"
+      ],
+      "longitudes": [
+        "-75.18863333"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Bishopville_Prong_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 881297,
+      "csv_sha256": "4a698e410f0aaed096135302ae720ff0f2739f1286b284a4abe03a2d52007abc",
+      "info_file": "mddnr_Bishopville_Prong_info.json",
+      "info_sha256": "e858165de75f991b84cec6374c332efec9077d0026e17786793f39493f1c071e"
+    },
+    {
+      "dataset_id": "mddnr_Budds_Landing",
+      "title": "MDDNR, Station Budds Landing",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Budds_Landing.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2018,
+      "raw_data_rows": 10275,
+      "valid_do_rows": 10275,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 5.13,
+      "do_max_mgL": 23.25,
+      "station_names": [
+        "Budds_Landing"
+      ],
+      "latitudes": [
+        "39.37225"
+      ],
+      "longitudes": [
+        "-75.83986667"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Budds_Landing_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 942169,
+      "csv_sha256": "6d66329ceb6dc7ff3c31f84d1883119927945dd5071c5ab92de134e1b173be84",
+      "info_file": "mddnr_Budds_Landing_info.json",
+      "info_sha256": "a0eb7251395276bc844b24687aef892ce504d6038f57fb19ffc4c1ec73c33552"
+    },
+    {
+      "dataset_id": "mddnr_Camp_Tockwogh",
+      "title": "MDDNR, Station Camp Tockwogh",
+      "candidate_year": 2017,
+      "period_start": "2017-06-01T00:00:00Z",
+      "period_end": "2017-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Camp_Tockwogh.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2017-06-01T00:00:00Z&time%3C=2017-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2017,
+      "raw_data_rows": 8832,
+      "valid_do_rows": 8832,
+      "first_valid_time": "2017-06-01T00:00:14Z",
+      "last_valid_time": "2017-08-31T23:45:14Z",
+      "do_min_mgL": 4.79,
+      "do_max_mgL": 11.15,
+      "station_names": [
+        "Camp_Tockwogh"
+      ],
+      "latitudes": [
+        "39.35393333"
+      ],
+      "longitudes": [
+        "-76.1296"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Camp_Tockwogh_2017-06-01_2017-09-01.csv",
+      "csv_bytes": 786803,
+      "csv_sha256": "c1ec3a5320162e0d77a28918395c1c4b7a855a3708b38bccc68078a6c72717f9",
+      "info_file": "mddnr_Camp_Tockwogh_info.json",
+      "info_sha256": "323c1df2d47d7801aec6918dcc89a97470161b84745c5860f287ee28cbd2b804"
+    },
+    {
+      "dataset_id": "mddnr_Dares_Beach",
+      "title": "MDDNR, Station Dares Beach",
+      "candidate_year": 2017,
+      "period_start": "2017-06-01T00:00:00Z",
+      "period_end": "2017-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Dares_Beach.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2017-06-01T00:00:00Z&time%3C=2017-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2017,
+      "raw_data_rows": 8017,
+      "valid_do_rows": 7025,
+      "first_valid_time": "2017-06-01T00:00:00Z",
+      "last_valid_time": "2017-08-23T15:00:01Z",
+      "do_min_mgL": 0.16,
+      "do_max_mgL": 14.31,
+      "station_names": [
+        "Dares_Beach"
+      ],
+      "latitudes": [
+        "38.55789"
+      ],
+      "longitudes": [
+        "-76.51502"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Dares_Beach_2017-06-01_2017-09-01.csv",
+      "csv_bytes": 700795,
+      "csv_sha256": "a16d65443e93cee0e64d60450bf95741cc435d6c764479f4bc7888441d559dc5",
+      "info_file": "mddnr_Dares_Beach_info.json",
+      "info_sha256": "465f9288c2514de8042072f98811abffa60bcc046e982b94e5702d957b08eb26"
+    },
+    {
+      "dataset_id": "mddnr_Greys_Creek",
+      "title": "MDDNR, Station Greys Creek",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Greys_Creek.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "status": "unavailable_or_invalid",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "dataset_id": "mddnr_Greys_Creek",
+      "title": "MDDNR, Station Greys Creek",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Greys_Creek.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8833,
+      "valid_do_rows": 8265,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 0.09,
+      "do_max_mgL": 29.3,
+      "station_names": [
+        "Greys_Creek"
+      ],
+      "latitudes": [
+        "38.44901667"
+      ],
+      "longitudes": [
+        "-75.13245"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Greys_Creek_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 796554,
+      "csv_sha256": "0c761c2188b703ba17f3f573164c26c04d6ce7cd37469953add36ae57da135f4",
+      "info_file": "mddnr_Greys_Creek_info.json",
+      "info_sha256": "95a665e0c290b4704c7df1f1875dcb64218d42e2fbe38e1917b6956b143e76ce"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Downstream",
+      "title": "MDDNR, Station Harris Creek Downstream",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Downstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "status": "unavailable_or_invalid",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Downstream",
+      "title": "MDDNR, Station Harris Creek Downstream",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Downstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 6526,
+      "valid_do_rows": 6526,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 1.77,
+      "do_max_mgL": 9.1,
+      "station_names": [
+        "Harris_Creek_Downstream"
+      ],
+      "latitudes": [
+        "38.712517"
+      ],
+      "longitudes": [
+        "-76.316803"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Harris_Creek_Downstream_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 667828,
+      "csv_sha256": "443505079db7342f2bec1dbfc12844fba2da89e37aa0992dcc89cec57e87eaad",
+      "info_file": "mddnr_Harris_Creek_Downstream_info.json",
+      "info_sha256": "22b8503c662ae1f1939a28033792b065d5abd04d41ec98ba42181b18a45d9d66"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "title": "MDDNR, Station Harris Creek Upstream",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Upstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "status": "unavailable_or_invalid",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "title": "MDDNR, Station Harris Creek Upstream",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Upstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8779,
+      "valid_do_rows": 7636,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 3.12,
+      "do_max_mgL": 8.5,
+      "station_names": [
+        "Harris_Creek_Upstream"
+      ],
+      "latitudes": [
+        "38.77315"
+      ],
+      "longitudes": [
+        "-76.2823"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Harris_Creek_Upstream_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 844105,
+      "csv_sha256": "15a4f35aad3856ed69482718a934ecbbeb705b6670d80d26c670c9e5cbcae3b4",
+      "info_file": "mddnr_Harris_Creek_Upstream_info.json",
+      "info_sha256": "ad2abdad27d7b78b7f9d7a0d97e15162b8321ab2e5e5e72257665c289a90f939"
+    }
+  ],
+  "selected": [
+    {
+      "dataset_id": "mddnr_Arundel_on_the_Bay",
+      "title": "MDDNR, Station Arundel on the Bay",
+      "candidate_year": 2019,
+      "period_start": "2019-06-01T00:00:00Z",
+      "period_end": "2019-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Arundel_on_the_Bay.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2019-06-01T00:00:00Z&time%3C=2019-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 6677,
+      "valid_do_rows": 6676,
+      "first_valid_time": "2019-06-20T16:30:00Z",
+      "last_valid_time": "2019-09-01T00:00:00Z",
+      "do_min_mgL": 1.51,
+      "do_max_mgL": 17.69,
+      "station_names": [
+        "Arundel_on_the_Bay"
+      ],
+      "latitudes": [
+        "38.91675"
+      ],
+      "longitudes": [
+        "-76.45838"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Arundel_on_the_Bay_2019-06-01_2019-09-01.csv",
+      "csv_bytes": 629999,
+      "csv_sha256": "d399b444ac45184390a6b989c378ee48c994496d287ea90c5d50865b9ba1b1fe",
+      "info_file": "mddnr_Arundel_on_the_Bay_info.json",
+      "info_sha256": "e9d0013ca76bf3b6929ee546ed2a83c241036d510a0b3572e26f55807bd82848"
+    },
+    {
+      "dataset_id": "mddnr_Bishopville_Prong",
+      "title": "MDDNR, Station Bishopville Prong",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Bishopville_Prong.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8833,
+      "valid_do_rows": 8833,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 0.1,
+      "do_max_mgL": 22.02,
+      "station_names": [
+        "Bishopville_Prong"
+      ],
+      "latitudes": [
+        "38.42396667"
+      ],
+      "longitudes": [
+        "-75.18863333"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Bishopville_Prong_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 881297,
+      "csv_sha256": "4a698e410f0aaed096135302ae720ff0f2739f1286b284a4abe03a2d52007abc",
+      "info_file": "mddnr_Bishopville_Prong_info.json",
+      "info_sha256": "e858165de75f991b84cec6374c332efec9077d0026e17786793f39493f1c071e"
+    },
+    {
+      "dataset_id": "mddnr_Budds_Landing",
+      "title": "MDDNR, Station Budds Landing",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Budds_Landing.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2018,
+      "raw_data_rows": 10275,
+      "valid_do_rows": 10275,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 5.13,
+      "do_max_mgL": 23.25,
+      "station_names": [
+        "Budds_Landing"
+      ],
+      "latitudes": [
+        "39.37225"
+      ],
+      "longitudes": [
+        "-75.83986667"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Budds_Landing_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 942169,
+      "csv_sha256": "6d66329ceb6dc7ff3c31f84d1883119927945dd5071c5ab92de134e1b173be84",
+      "info_file": "mddnr_Budds_Landing_info.json",
+      "info_sha256": "a0eb7251395276bc844b24687aef892ce504d6038f57fb19ffc4c1ec73c33552"
+    },
+    {
+      "dataset_id": "mddnr_Camp_Tockwogh",
+      "title": "MDDNR, Station Camp Tockwogh",
+      "candidate_year": 2017,
+      "period_start": "2017-06-01T00:00:00Z",
+      "period_end": "2017-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Camp_Tockwogh.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2017-06-01T00:00:00Z&time%3C=2017-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2017,
+      "raw_data_rows": 8832,
+      "valid_do_rows": 8832,
+      "first_valid_time": "2017-06-01T00:00:14Z",
+      "last_valid_time": "2017-08-31T23:45:14Z",
+      "do_min_mgL": 4.79,
+      "do_max_mgL": 11.15,
+      "station_names": [
+        "Camp_Tockwogh"
+      ],
+      "latitudes": [
+        "39.35393333"
+      ],
+      "longitudes": [
+        "-76.1296"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Camp_Tockwogh_2017-06-01_2017-09-01.csv",
+      "csv_bytes": 786803,
+      "csv_sha256": "c1ec3a5320162e0d77a28918395c1c4b7a855a3708b38bccc68078a6c72717f9",
+      "info_file": "mddnr_Camp_Tockwogh_info.json",
+      "info_sha256": "323c1df2d47d7801aec6918dcc89a97470161b84745c5860f287ee28cbd2b804"
+    },
+    {
+      "dataset_id": "mddnr_Dares_Beach",
+      "title": "MDDNR, Station Dares Beach",
+      "candidate_year": 2017,
+      "period_start": "2017-06-01T00:00:00Z",
+      "period_end": "2017-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Dares_Beach.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2017-06-01T00:00:00Z&time%3C=2017-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2017,
+      "raw_data_rows": 8017,
+      "valid_do_rows": 7025,
+      "first_valid_time": "2017-06-01T00:00:00Z",
+      "last_valid_time": "2017-08-23T15:00:01Z",
+      "do_min_mgL": 0.16,
+      "do_max_mgL": 14.31,
+      "station_names": [
+        "Dares_Beach"
+      ],
+      "latitudes": [
+        "38.55789"
+      ],
+      "longitudes": [
+        "-76.51502"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Dares_Beach_2017-06-01_2017-09-01.csv",
+      "csv_bytes": 700795,
+      "csv_sha256": "a16d65443e93cee0e64d60450bf95741cc435d6c764479f4bc7888441d559dc5",
+      "info_file": "mddnr_Dares_Beach_info.json",
+      "info_sha256": "465f9288c2514de8042072f98811abffa60bcc046e982b94e5702d957b08eb26"
+    },
+    {
+      "dataset_id": "mddnr_Greys_Creek",
+      "title": "MDDNR, Station Greys Creek",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Greys_Creek.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8833,
+      "valid_do_rows": 8265,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 0.09,
+      "do_max_mgL": 29.3,
+      "station_names": [
+        "Greys_Creek"
+      ],
+      "latitudes": [
+        "38.44901667"
+      ],
+      "longitudes": [
+        "-75.13245"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Greys_Creek_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 796554,
+      "csv_sha256": "0c761c2188b703ba17f3f573164c26c04d6ce7cd37469953add36ae57da135f4",
+      "info_file": "mddnr_Greys_Creek_info.json",
+      "info_sha256": "95a665e0c290b4704c7df1f1875dcb64218d42e2fbe38e1917b6956b143e76ce"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Downstream",
+      "title": "MDDNR, Station Harris Creek Downstream",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Downstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 6526,
+      "valid_do_rows": 6526,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 1.77,
+      "do_max_mgL": 9.1,
+      "station_names": [
+        "Harris_Creek_Downstream"
+      ],
+      "latitudes": [
+        "38.712517"
+      ],
+      "longitudes": [
+        "-76.316803"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Harris_Creek_Downstream_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 667828,
+      "csv_sha256": "443505079db7342f2bec1dbfc12844fba2da89e37aa0992dcc89cec57e87eaad",
+      "info_file": "mddnr_Harris_Creek_Downstream_info.json",
+      "info_sha256": "22b8503c662ae1f1939a28033792b065d5abd04d41ec98ba42181b18a45d9d66"
+    },
+    {
+      "dataset_id": "mddnr_Harris_Creek_Upstream",
+      "title": "MDDNR, Station Harris Creek Upstream",
+      "candidate_year": 2018,
+      "period_start": "2018-06-01T00:00:00Z",
+      "period_end": "2018-09-01T00:00:00Z",
+      "data_url": "https://erddap.maracoos.org/erddap/tabledap/mddnr_Harris_Creek_Upstream.csv?time,station_id,station_name,latitude,longitude,depth,mass_concentration_of_oxygen_in_sea_water,sample_depth,sea_water_temperature,sea_water_salinity,fractional_saturation_of_oxygen_in_sea_water&time%3E=2018-06-01T00:00:00Z&time%3C=2018-09-01T00:00:00Z",
+      "metadata_first_year": 2017,
+      "metadata_last_year": 2019,
+      "raw_data_rows": 8779,
+      "valid_do_rows": 7636,
+      "first_valid_time": "2018-06-01T00:00:00Z",
+      "last_valid_time": "2018-09-01T00:00:00Z",
+      "do_min_mgL": 3.12,
+      "do_max_mgL": 8.5,
+      "station_names": [
+        "Harris_Creek_Upstream"
+      ],
+      "latitudes": [
+        "38.77315"
+      ],
+      "longitudes": [
+        "-76.2823"
+      ],
+      "status": "selected",
+      "error": "",
+      "csv_file": "mddnr_Harris_Creek_Upstream_2018-06-01_2018-09-01.csv",
+      "csv_bytes": 844105,
+      "csv_sha256": "15a4f35aad3856ed69482718a934ecbbeb705b6670d80d26c670c9e5cbcae3b4",
+      "info_file": "mddnr_Harris_Creek_Upstream_info.json",
+      "info_sha256": "ad2abdad27d7b78b7f9d7a0d97e15162b8321ab2e5e5e72257665c289a90f939"
+    }
+  ]
+}

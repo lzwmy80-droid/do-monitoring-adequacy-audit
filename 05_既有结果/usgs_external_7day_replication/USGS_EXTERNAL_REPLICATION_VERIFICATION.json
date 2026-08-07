@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "selected_series_count": 9,
+  "series_with_qualifying_blocks": 9,
+  "qualifying_block_count": 36,
+  "compatible_block_count": 36,
+  "all_phase_case_count": 1080,
+  "compatible_k0_case_count": 1080,
+  "fixed_k1_case_count": 1080,
+  "phase_geometry_groups": 144,
+  "containment_failures": 0,
+  "nesting_failures": 0,
+  "source_hashes_checked": 18,
+  "frozen_file_hashes": {
+    "freeze_note_sha256": "436dcedcc05fa640868d34e04838b0a591673d5fc791dad29b023e78137dbe4a",
+    "download_manifest_sha256": "174e1bfd5b00b7d75ac6bea51ce5683edd158b24f87a9448c6156f6925e155bd",
+    "core_runtime_sha256": "5e06c11ea2bff3e1fd2713017736cb8343fabd4d9b4b332af234025a45891b2a",
+    "analysis_script_sha256": "624eef58cb76b693bfeb3d264e5231683a18624f3c0e26c6c40f5be61b713956"
+  },
+  "output_hashes": {
+    "usgs_external_block_cadence_summary.csv": "236dca767427f97370fd34670d244414a9527f5b7a4c011c538f9a8559c12d54",
+    "usgs_external_cadence_summary.csv": "34e970710793e9208103ad3692b2df50240649ea9f5dbd6877ad4ee107861b69",
+    "usgs_external_data_audit.csv": "e15bc84ac9e58c1f2dcd88a28dbb9e9186b98fff2389fead46fe15fd0a05a9b1",
+    "usgs_external_k0_detail.csv": "140184140c881e1f38c4f67720bf94f5f83db32d3bb6b6f32685b30b70735060",
+    "usgs_external_k1_detail.csv": "f6b776fdacb0e410f1f59d8993e29abdfdef936b30fdaeed46fb8891decadbfd",
+    "usgs_external_metadata.json": "6edbbefa4349838e32630262803675ea7546c959f121a40c62ed12b74a7f7b89",
+    "USGS_EXTERNAL_REPLICATION_REPORT.md": "76ae64b8a612e8668f0a7ff74f8ca5223473694b34f1ddba6fbde994b676d975",
+    "usgs_external_station_block_summary.csv": "99d7c0150c54b9b4374c12e9a07b172296260c004219528a5ae3573e46a27ade"
+  }
+}

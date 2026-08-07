@@ -1,0 +1,116 @@
+{
+  "gate": "DIR-01-G3-independent-four-endpoint-oracle",
+  "status": "pass",
+  "independence": "enumerated retained sets; all-pairs feasibility; all-cone affine arrangement; direct occupation/hinge integration",
+  "production_helpers_not_called": [
+    "_as_inputs",
+    "_compatible",
+    "_retained_subset_value",
+    "_pair_segments",
+    "integrate_occupation",
+    "integrate_oxygen_deficit"
+  ],
+  "random_audit": {
+    "cases": 1080,
+    "feasible_cases": 775,
+    "infeasible_cases": 305,
+    "maximum_four_endpoint_absolute_error": 1.4210854715202004e-14
+  },
+  "discrete_boundary_audit": {
+    "cases": 729,
+    "feasible_cases": 609,
+    "infeasible_cases": 120,
+    "maximum_four_endpoint_absolute_error": 0.0
+  },
+  "vertical_translation_invariance": {
+    "base_k_min": 1,
+    "shifted_k_min": 1,
+    "vertical_shift": 1000000000000.0,
+    "base_endpoints": [
+      1.25,
+      1.75,
+      0.34375,
+      0.90625
+    ],
+    "shifted_endpoints": [
+      1.25,
+      1.75,
+      0.34375,
+      0.90625
+    ],
+    "maximum_endpoint_absolute_error": 0.0
+  },
+  "numerical_scale_regressions": {
+    "small_slope_large_horizon_expected": [
+      5000000000000000.0,
+      625000000000000.0
+    ],
+    "small_slope_large_horizon_production": [
+      5000000000000000.0,
+      625000000000000.0
+    ],
+    "small_slope_large_horizon_oracle": [
+      5000000000000000.0,
+      625000000000000.0
+    ],
+    "tiny_L0_conflict_production_k_min": 1,
+    "tiny_L0_conflict_oracle_rejected": true,
+    "one_ulp_violation_k_min": 1,
+    "rounded_subtraction_violation_k_min": 1,
+    "overflow_comparison_violation_k_min": 1,
+    "normalization_alias_k_min": 3,
+    "normalization_alias_endpoint_rejected": true,
+    "tiny_positive_slope_endpoint_rejected": true,
+    "near_vertex_exact_fallback_endpoints": [
+      1.493678147677149e+34,
+      1.3885232882494044e+19
+    ],
+    "no_anchor_exact_product_deficit_upper": 1.9999999999999998,
+    "power_of_two_transformations": [
+      {
+        "time_power_of_two": -80,
+        "value_power_of_two": 60,
+        "maximum_normalized_endpoint_error": 0.0
+      },
+      {
+        "time_power_of_two": -30,
+        "value_power_of_two": -70,
+        "maximum_normalized_endpoint_error": 0.0
+      },
+      {
+        "time_power_of_two": 35,
+        "value_power_of_two": 25,
+        "maximum_normalized_endpoint_error": 0.0
+      },
+      {
+        "time_power_of_two": 90,
+        "value_power_of_two": -20,
+        "maximum_normalized_endpoint_error": 0.0
+      }
+    ],
+    "maximum_power_of_two_normalized_endpoint_error": 0.0
+  },
+  "analytic_tent_case": {
+    "occupation_lower": 0.0,
+    "occupation_upper": 2.0,
+    "deficit_lower": 0.0,
+    "deficit_upper": 1.0,
+    "occupation_lower_retained": [
+      0,
+      1
+    ],
+    "occupation_upper_retained": [
+      0,
+      1
+    ],
+    "deficit_lower_retained": [
+      0,
+      1
+    ],
+    "deficit_upper_retained": [
+      0,
+      1
+    ]
+  },
+  "scope": "exact-inlier epsilon=0 only; endpoint range/hull, not image connectedness"
+}

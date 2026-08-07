@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software release and the associated article."
+title: "Auditing dissolved-oxygen monitoring adequacy under sparse record uncertainty: reproducibility package"
+type: software
+version: 1.1.0
+authors:
+  - family-names: "Luo"
+    given-names: "Ziwen"
+repository-code: "https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit"
+license: MIT

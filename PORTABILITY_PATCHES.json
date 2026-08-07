@@ -1,0 +1,51 @@
+[
+  {
+    "file": "03_代码与测试/原始快照/future_partial_identification.py",
+    "source_sha256": "eaca017d1c8223396401e9d2a1657ac6c3fb3dbcc4fa8116ea9bb80acf5dc436",
+    "release_sha256": "40362a4846dde01e6f648f259cc3fd74afaf96a212fa77c7e6b772d981b8d32c",
+    "change": "absolute local PROJECT path replaced by repository-relative path",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "03_代码与测试/原始快照/future_partial_identification_maracoos_pilot.py",
+    "source_sha256": "fe2413fa06e982d3a08b729c066513fd7dc734b8c2519c3d0240d78b8e431251",
+    "release_sha256": "cdf76670ffef53b2142606ce485c4d3c3640c5190498fd70c0dd2f5cd13c718c",
+    "change": "absolute local PROJECT path replaced by repository-relative path",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "05_既有结果/partial_identification_maracoos_pilot_v3_collision_identity/pilot_metadata.json",
+    "source_sha256": "c835d1aee3602ad12ebfbc731bd646efbc28846139930d1f7e609ee38130798d",
+    "release_sha256": "1621f4aba5aeea234c0fab7a49ac372998adc14b81166b09b66eb36c52c01c38",
+    "change": "absolute source_manifest path replaced by repository-relative path",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "03_代码与测试/current/download_usgs_external_do.py",
+    "source_sha256": "bc0c596aaa4a5e2aa67cbdfe72873593bdc0cd6ffb5a4b9e83240e105bb666ce",
+    "release_sha256": "e45de23acd8e6bf2d560dd6332f3151b5c11379a35a4eae1700088951ba42c7a",
+    "change": "manifest records the adapter with a repository-relative path",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "03_代码与测试/current/run_usgs_external_replication.py",
+    "source_sha256": "0dc1b7ea12eed5a220b56e25f2d5f8fed936b0961ff4d69051ea9d3871de9fff",
+    "release_sha256": "624eef58cb76b693bfeb3d264e5231683a18624f3c0e26c6c40f5be61b713956",
+    "change": "machine-local metadata paths replaced by repository-relative paths; timing-only output fields omitted",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "03_代码与测试/current/verify_usgs_external_replication.py",
+    "source_sha256": "0fdbc27f16dcd9f4e9448b402c21fc4cc88310676f52f411510b5f01a20ee421",
+    "release_sha256": "8b2b540930f573ecfc42d7206289ae5b2348edc47fbb982d98e715d3ad140d75",
+    "change": "verification receipt excludes its own prior hash",
+    "scientific_logic_changed": false
+  },
+  {
+    "file": "04_真实数据/USGS_WDFN_external_2024/download_manifest.json",
+    "source_sha256": "bc2fb5dbda2b6115ffdee713156c35fcc015e0876d9abf9d0ab5839b9816b3be",
+    "release_sha256": "174e1bfd5b00b7d75ac6bea51ce5683edd158b24f87a9448c6156f6925e155bd",
+    "change": "absolute adapter path replaced by repository-relative path",
+    "scientific_logic_changed": false
+  }
+]

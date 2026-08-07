@@ -1,0 +1,5 @@
+Cadence (h),Total pooled cases,Algorithm-feasible cases,Reference-compatible cases,Median occupation width / T,Median deficit width / (H T)
+0.5,32,21,16,0.410,0.074
+1,64,63,32,0.698,0.331
+2,128,128,64,0.849,0.660
+4,256,256,128,0.925,0.831

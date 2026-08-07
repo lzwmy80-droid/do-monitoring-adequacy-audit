@@ -1,0 +1,33 @@
+{
+  "package": "do-monitoring-adequacy-audit",
+  "version": "1.1.0",
+  "status": "verified_private_repository",
+  "checkpoint": "DIR-01-CP-20260802-O",
+  "scientific_runtime_sha256": "5e06c11ea2bff3e1fd2713017736cb8343fabd4d9b4b332af234025a45891b2a",
+  "mddnr_source_manifest_sha256": "c06cb797bed4541135b0726ccb07ea04df1eb51929f60645cfce60d530733d2d",
+  "usgs_source_manifest_sha256": "174e1bfd5b00b7d75ac6bea51ce5683edd158b24f87a9448c6156f6925e155bd",
+  "expected_tests": {
+    "inherited": 20,
+    "current": 43
+  },
+  "frozen_external_counts": {
+    "selected_series": 9,
+    "qualifying_blocks": 36,
+    "compatible_blocks": 36,
+    "k0_phase_cases": 1080,
+    "fixed_k1_phase_cases": 1080
+  },
+  "submission_documents_included": false,
+  "author_identity_included": true,
+  "software_creator": "Ziwen Luo",
+  "copyright_holder": "Ziwen Luo",
+  "copyright_year": 2026,
+  "code_license": "MIT",
+  "code_license_scope": "original author-owned software only",
+  "code_license_applied": true,
+  "repository_url": "https://github.com/lzwmy80-droid/do-monitoring-adequacy-audit",
+  "repository_visibility": "private",
+  "public_release_created": false,
+  "persistent_doi": null,
+  "network_required_for_reproduction": false
+}
